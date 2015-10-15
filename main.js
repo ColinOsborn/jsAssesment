@@ -1,21 +1,95 @@
 // ColinOsborn
 // 1.  Log your last name to the console.
+console.log("Question 1");
+console.log("Osborn");
 // 2.  Declare a variable called "movie" and log it to the console.
+console.log("Question 2");
+var movie = "Talladega Nights";
+console.log(movie);
 // 3.  Declare three variables with integer values. Add the first two, then multiply that sum by the third.
+console.log("Question 3");
+var first = 10;
+var second = 8;
+var third = 5;
+var sum = (first + second);
+var mult = (sum * third);
+console.log(sum);
+console.log(mult);
 // 4.  Declare two variable with string values. Declare a third varible that concatenates the first two.
+console.log("Question 4");
+var firstName = "Colin"
+var secondName = "Osborn"
+var fullName = firstName + " " + secondName
+console.log(fullName);
 // 5.  Prompt a user to enter a number. Multiply that by 100.
+console.log("Question 5");
+var hundy = prompt("Please enter a number.");
+var multHundy = hundy * 100
+console.log(multHundy);
 // 6.  Prompt a user to enter his/her name, favorite band, and the year they were born. Log the sentence:
+console.log("Question 6");
+var nameQuest = prompt("What is your name?");
+var favBand = prompt("What is your favorite band?");
+var yearBorn = prompt("what year were you born?");
+console.log("My name is "+ nameQuest + ". " + "My favorite band is " + favBand + ". " + "I was born in " + yearBorn);
 //     "My name is ______, and I'm ___ year old fan of ________."
 // 7.  Create an alert that uses the response from a prompt.
+console.log("Question 7");
+var ally = prompt("Are you 21?");
+if (ally === "yes") {
+    alert("You are 21! Congrats! Go have a beer!");
+} else {
+    alert("aw shucks, better get a fake!");
+}
 // 8.  Declare an array with six items. Do this two different ways.
+console.log("Question 8");
+var bike = ["Frame", "Tire", "Fork", "Handlebar", "Chain", "Brakes"];
+var cars = [
+  "Ferrari",
+  "Mercedes",
+  "Mclaren",
+  "Renault",
+  "Williams",
+  "Lotus"
+];
+console.log(bike);
+console.log(cars);
 // 9.  Add two additional items to the beginning of the array.
+console.log("Question 9");
+var newItems = bike.unshift("Seat", "Pedals");
+console.log(bike);
 // 10. Remove the last two items.
+console.log("Question 10");
+var lessItems = bike.splice(6,7);
+console.log(bike);
 // 11. Add one item between the 2nd and 3rd item.
+console.log("Question 11");
+var moreParts = bike.splice(1,2,"Headset");
+console.log(bike);
 // 12. Combine all of the elements of the array into a string.
+console.log("Question 12");
+console.log(cars);
+var form = cars.join(" ");
+console.log(form);
 // 13. Arrange the items alphabetically.
+console.log("Question 13");
+cars.sort();
+console.log(cars);
 // 14. Create and array of three arrays: colors, names, and schools. Each inner array should have three items.
+console.log("Question 14");
+var options =
+console.log(options);
 // 15. Remove the last item from the second array.
+console.log("Question 15");
+
 // 16. Declare an object called "car" that describes the make, model, and color of your car.
+console.log("Question 16");
+var minCar = {
+  make: ["Volkswagen", "Golf", "TDI"],
+  model: ["TDI", "4-Cylinder", "4-door"],
+  color: ["Grey", "Black", "Silver"]
+};
+console.log(minCar);
 // 17. To the car object, add the key/value pair describing the year of your car.
 // 18. The the car object, add a "repairs" key with the value being an array of the last three items you fixed on the car.
 

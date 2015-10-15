@@ -77,21 +77,29 @@ cars.sort();
 console.log(cars);
 // 14. Create and array of three arrays: colors, names, and schools. Each inner array should have three items.
 console.log("Question 14");
-var options =
-console.log(options);
+var arrayed = [
+    ["blue", "yellow", "gold"],
+    ["Calle", "Fredrik", "Colin"],
+    ["jarfalla", "kungsholm", "falun"]
+];
+console.log(arrayed);
 // 15. Remove the last item from the second array.
 console.log("Question 15");
-
+arrayed[1].splice(2);
+console.log(arrayed[1]);
 // 16. Declare an object called "car" that describes the make, model, and color of your car.
 console.log("Question 16");
-var minCar = {
+var car = {
   make: ["Volkswagen", "Golf", "TDI"],
   model: ["TDI", "4-Cylinder", "4-door"],
   color: ["Grey", "Black", "Silver"]
 };
-console.log(minCar);
+console.log(car);
 // 17. To the car object, add the key/value pair describing the year of your car.
+console.log("Question 17");
+car.unshift()
 // 18. The the car object, add a "repairs" key with the value being an array of the last three items you fixed on the car.
+console.log("Question 18");
 
 // Use the following object for questions 19-25:
 guests = {
